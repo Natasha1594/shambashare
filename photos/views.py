@@ -10,5 +10,5 @@ def gallery(request):
 def addPhoto(request):
     return render(request, 'photos/add.html')
 
-def viewPhoto(request):
+def viewPhoto(request, pk):
     return render(request, 'photos/photo.html')
